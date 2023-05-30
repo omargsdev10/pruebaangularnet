@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>_2Users.Services</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\3Repository\3Users.Repositories.csproj" />
+    <ProjectReference Include="..\4Users.Entities\4Users.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

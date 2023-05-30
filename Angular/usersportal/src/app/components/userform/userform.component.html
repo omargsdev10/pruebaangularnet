@@ -1,0 +1,38 @@
+<p>Formulario de usuario</p>
+<div>
+    <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
+        <div>
+            <label>Nombre</label><br>
+            <input id="id" type="text" formControlName="name" />
+        </div>
+        <div>
+            <label>Nombre</label><br>
+            <input id="name" type="text" formControlName="name" />
+        </div>
+        <div>
+            <label>Apellido paterno</label><br>
+            <input id="lastName" type="text" formControlName="lastName" />
+        </div>
+        <div>
+            <label>Apellido materno</label><br>
+            <input id="mothersLastName" type="text" formControlName="mothersLastName" />
+        </div>
+        <div>
+            <label>Dirección</label><br>
+            <input id="address" type="text" formControlName="address" />
+        </div>
+        <div>
+            <label>Telefono</label><br>
+            <input id="phoneNumber" type="text" formControlName="phoneNumber" />
+        </div>
+        <div>
+            <label>Email</label><br>
+            <input id="email" type="text" formControlName="email" />
+        </div>
+        <div>
+            <button class="button" type="submit">
+                Continuar
+            </button>
+        </div>
+    </form>
+</div>
